@@ -1,0 +1,12 @@
+{{#link-to "event" model.slug class="event-summary__img-holder"}}
+  <img src="http://lorempizza.com/180/120" alt="{{model.name}}" title="{{model.name}}" class="event-summary__img">
+{{/link-to}}
+
+<h1 class="event-summary__title">
+  {{#link-to "event" model.slug class="event-summary__title-link"}}
+    <span>{{model.name}}</span>
+  {{/link-to}}
+</h1>
+
+<span class="event-summary__info">{{short-date model.event_date model.start_time model.end_time}}</span>
+<span class="event-summary__info">{{model.location}}</span>

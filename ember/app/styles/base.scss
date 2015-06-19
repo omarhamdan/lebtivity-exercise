@@ -1,0 +1,19 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Signika Negative', arial, sans-serif;
+}
+
+* {
+  font-family: inherit;
+}
+
+body {
+  background: #f1ebe4;
+}
+
+.container {
+  width: $container-width;
+  position: relative;
+  margin: 0 auto;
+}

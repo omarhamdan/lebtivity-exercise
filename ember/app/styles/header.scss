@@ -1,0 +1,27 @@
+.header {
+  background: url('/assets/images/header_bg.jpg');
+}
+
+.header__container {
+  width: $container-width;
+  margin: 0 auto;
+  height: 90px;
+  @include display(flex);
+  @include align-items(center);
+  @include justify-content(space-between);
+}
+
+.header__logo {
+  margin: 0;
+  padding: 0;
+}
+
+.header__logo-link {
+  display: block;
+  font-size: 0;
+  color: transparent;
+  width: 146px;
+  height: 50px;
+  background: url('/assets/images/logo.svg') right bottom no-repeat;
+  background-size: 100% 100%;
+}

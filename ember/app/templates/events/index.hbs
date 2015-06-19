@@ -1,0 +1,11 @@
+<div class="sub-header">
+  <div class="sub-header__container">
+    312 Events in Lebanon this month
+  </div>
+</div>
+
+<div class="container">
+  {{#each model as |event|}}
+    {{event-summary model=event}}
+  {{/each}}
+</div>

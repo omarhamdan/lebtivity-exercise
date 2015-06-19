@@ -1,0 +1,22 @@
+.main-form {
+  width: 950px;
+  margin: 10px auto 0;
+  background: white;
+  border: solid 1px #dcd9d3;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.main-form__title {
+  display: block;
+  font-size: 26px;
+  font-weight: 600;
+  margin: 0;
+  color: #753457;
+  padding: 10px 20px;
+  border-bottom: solid 1px #dcd9d3;
+}
+
+.main-form__form {
+  padding: 20px;
+}

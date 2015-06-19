@@ -1,0 +1,22 @@
+<article class="event">
+  <div class="event__image-section">
+    <img src="http://lorempizza.com/180/120" alt="{{model.name}}" title="{{model.name}}" class="event__image">
+    <button class="event__delete-btn">Delete</button>
+  </div>
+  <div class="event__content-section">
+    <h1 class="event__name">
+      {{model.name}}
+    </h1>
+    <div class="event__info-wrapper">
+      <div class="event__info">
+        On {{model.event_date}} from {{model.start_time}} to {{model.end_time}}
+      </div>
+      <div class="event__info">
+        {{model.location}}
+      </div>
+    </div>
+    <p class="event__description">
+      {{model.description}}
+    </p>
+  </div>
+</article>

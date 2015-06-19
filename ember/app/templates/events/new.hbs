@@ -1,0 +1,39 @@
+<div class="main-form">
+  <h1 class="main-form__title">Add an Event</h1>
+
+  <div class="main-form__form">
+    <form class="form" {{action "save" on="submit"}}>
+      <div class="form__group">
+        <label class="form__label">Name</label>
+        {{input value=model.name class="form__input"}}
+      </div>
+
+      <div class="form__group">
+        <label class="form__label">Description</label>
+        {{textarea value=model.description class="form__textarea"}}
+      </div>
+
+      <div class="form__group">
+        <label class="form__label">Location</label>
+        {{input value=model.location class="form__input"}}
+      </div>
+
+      <div class="form__group">
+        <label class="form__label">Event date</label>
+        {{input value=model.event_date class="form__input" type="date"}}
+      </div>
+
+      <div class="form__group">
+        <label class="form__label">Start time</label>
+        {{input value=model.start_time class="form__input" type="time"}}
+      </div>
+
+      <div class="form__group">
+        <label class="form__label">End time</label>
+        {{input value=model.end_time class="form__input" type="time"}}
+      </div>
+
+      <button type="submit" class="form__btn">Create Event</button>
+    </form>
+  </div>
+</div>
