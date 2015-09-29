@@ -12,13 +12,13 @@
   padding: 0 10px;
   cursor: pointer;
   text-decoration: none;
-  @include transition(all .3s linear);
+  transition: all .3s linear;
 }
 
 .btn_color_green {
-  @include background-image(linear-gradient(#79be00, #5d9400));
+  background-image: linear-gradient(#79be00, #5d9400);
 
   &:hover {
-    @include background-image(linear-gradient(#68a000, #6faa00));
+    background-image: linear-gradient(#68a000, #6faa00);
   }
 }

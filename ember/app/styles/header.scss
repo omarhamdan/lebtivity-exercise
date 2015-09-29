@@ -6,9 +6,9 @@
   width: $container-width;
   margin: 0 auto;
   height: 90px;
-  @include display(flex);
-  @include align-items(center);
-  @include justify-content(space-between);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .header__logo {

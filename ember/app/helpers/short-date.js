@@ -10,9 +10,9 @@
  */
 import Ember from 'ember';
 
-const { Handlebars: { makeBoundHelper } } = Ember;
+const { Helper: { helper } } = Ember;
 
-export default makeBoundHelper(function(date, startTime, endTime) {
+export default helper(function([date, startTime, endTime]) {
   let newDate = moment(date, 'YYYY-MM-DD').format('MMM D');
   let newStartTime = moment(startTime).utc().format('h:mm a');
   let newEndTime = moment(endTime).utc().format('h:mm a');
