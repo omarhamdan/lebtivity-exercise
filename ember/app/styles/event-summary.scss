@@ -28,7 +28,7 @@
     background-color: #843964;
     content: ' ';
     opacity: 0;
-    @include transition(opacity .2s linear);
+    transition: opacity .2s linear;
   }
 
   &:hover:after {

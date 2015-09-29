@@ -5,7 +5,7 @@
   border: solid 1px #dcd9d3;
   border-radius: 5px;
   box-sizing: border-box;
-  @include display(flex);
+  display: flex;
 }
 
 .event__image-section {
@@ -19,7 +19,7 @@
 }
 
 .event__content-section {
-  @include flex(1);
+  flex: 1;
 }
 
 .event__name {

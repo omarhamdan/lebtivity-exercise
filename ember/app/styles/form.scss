@@ -9,12 +9,12 @@
 }
 
 .form__group {
-  @include display(flex);
+  display: flex;
 }
 
 .form__input,
 .form__textarea {
-  @include flex(1);
+  flex: 1;
   border-radius: 3px;
   box-shadow: none;
   border: solid 1px #b8b8b6;
